@@ -1,0 +1,223 @@
+body
+{
+	
+	background-image: url('koncert.jpg');
+	font-family: Verdana;
+	font-size: 20px;
+	color: white;
+	margin: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+}
+#logo
+{
+	height: 150px;
+	
+}
+	#container
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+	#logo
+	{
+		height: 150px;
+		
+	}
+	#nav
+	{
+	height: 50px;
+	}
+#spis
+{
+	background-color: white;
+	color: black;
+	min-height: 160px;
+padding: 1px 15px 1px 15px;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	font-size: 14px;
+}
+
+	#content
+	{
+		background-color: rgba(255, 255, 255, 0.89);
+	padding: 25px;
+    color: black;
+	min-height: 600px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	}
+	#footer
+	{
+	color: white;
+	text-align: center;
+	background-color: black;
+	padding: 9px;
+	font-size: 13px;
+	}
+	.tile1
+{
+	float: left;
+	width: 50%;
+	height: 39px;
+	background-color: #008b8b;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+    padding-top: 11px;
+	
+}
+.tile1:hover
+{
+	background-color: #007d7d;
+}
+.tile2
+{
+	float: left;
+	width: 50%;
+	height: 39px;
+	background-color: #008b8b;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	padding-top: 11px
+}
+.tile2:hover
+{
+	background-color: #007d7d;;
+}
+
+a.dblink:hover
+{
+	color: #007d7d;
+	text-decoration: underline;
+}
+a.tilelink
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+	width: 500px;
+	height: 50px;
+}
+a.dblink
+{
+		color: black;
+	text-decoration: none;
+}
+article {
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding: 0 20px
+}
+
+
+ h2
+{
+	 font-size:30px;
+    text-align: center;
+    margin: 0 20% 60px 20%;
+    padding-bottom: 15px;
+	padding-top: 3px;
+    border-bottom: 2px solid #007d7d;
+}
+h2.menu
+{
+	 font-size:30px;
+    text-align: center;
+    margin: 0 20% 25px 20%;
+    padding-bottom: 15px;
+	padding-top: 3px;
+    border-bottom: 2px solid #007d7d;
+}
+
+.form-group {
+	margin-bottom: 30px;
+}
+label {
+	font-weight: normal;
+}
+input[type="text"] {
+	width: 70%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+input[type="text"]:focus {
+	outline: none;
+	border-color: #008d8d;
+}
+label.jeden
+{
+	margin-right: 60px;
+}
+label.dwa
+{
+	margin-right: 11px;
+}
+label.trzy
+{
+	margin-right: 40px;
+}
+label.cztery
+{
+	margin-right: 56px;
+}
+.custom-dropdown {
+	position: relative;
+	display: inline-block;
+	user-select: none;
+	margin-right: 139px;
+}
+
+.custom-dropdown select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 230px;
+	padding: 10px;
+    outline: none;
+	cursor: pointer;
+	color: rgba(117,117,117);
+	font-size: 16px;	
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+
+
+.custom-dropdown select:focus {
+	border-color: #008d8d;
+}
+
+	label.piec
+{
+	margin-right: 59px;
+}
+label.szesc
+{
+	margin-right: 19px;
+}
+.styled-button {
+	padding: 10px 20px;
+	background-color: #008b8b;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s;
+  }
+
+  .styled-button:hover {
+	background-color: #007b7b;
+  }
+  

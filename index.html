@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularz Koncertowy</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <style>
+		.tile1
+{
+	background-color: #007d7d;
+}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+        <div id="logo">
+            <img src="logo.png" alt="logo" width="1000px"/>
+            </div>
+	<div id="nav">
+	<div class="tile1">
+	<a href="index.html" class="tilelink">Zarezerwuj</a>
+	</div>
+	<div class="tile2">
+	<a href="informacje.html" class="tilelink">Kontakt</a></div>
+
+	</div>
+	
+	<div id="content">
+	<h2 class="menu">Zarezerwuj koncert Zenka Martyniuka już dziś!</h2>
+  
+    <form action="mailto:nataliaa.walas@gmail.com" method="post" enctype="text/plain">
+        <div class="form-group">
+    <label class="jeden" for="imie">Imię:</label>
+    <input type="text" id="imie" name="imie" placeholder="Wprowadź swoje imię">
+</div>
+
+<form>
+    <div class="form-group">
+<label class="dwa" for="nazwisko">Nazwisko:</label>
+<input  type="text" id="Nazwisko" name="nazwisko" placeholder="Wprowadź swoje nazwisko">
+</div>
+
+<div class="form-group">
+    <label class="trzy" for="e-mail">E-mail:</label>
+    <input  type="text" id="E-mail" name="E-mail" placeholder="Wprowadź swój adres e-mail">
+    </div>
+
+    <div class="form-group">
+        <label class="cztery" for="wiek">Wiek:</label>
+        <input  type="text" id="wiek" name="wiek" placeholder="Wprowadź swój wiek">
+        </div>
+
+        <div class="custom-dropdown">
+            <label class="piec" for="Data">Data:</label>
+            <select>
+                <option value="option1">--wybierz--</option>
+                <option value="option2">31.10.2023r.</option>
+                <option value="option3">17.11.2023r.</option>
+                <option value="option4">30.11.2023r.</option>
+                <option value="option5">06.12.2023r.</option>
+            </select>
+        </div>
+
+    <p>Jakie piosenki chcesz usłyszeć?</p>
+      <label>
+        <input type="checkbox">
+        Przez twe oczy zielone
+      </label>
+      <br>
+      <label>
+        <input type="checkbox">
+       Przekorny los
+      </label>
+<br>
+      <label>
+        <input type="checkbox">
+        Gwiazda
+      </label>
+      <br>
+      <label>
+        <input type="checkbox">
+        Życie to są chwile
+      </label>
+      <br>
+      <label>
+        <input type="checkbox">
+        Królowa nocy
+      </label>
+      <br>
+      <label>
+        <input type="checkbox">
+        Pragnienie miłości
+      </label>
+<br>
+<br>
+      <div class="custom-dropdown">
+        <label class="szesc" for="jedzenie">Jedzenie:</label>
+        <select>
+            <option value="option1">--wybierz--</option>
+            <option value="option2">Pizza</option>
+            <option value="option3">Burger</option>
+            <option value="option4">Frytki</option>
+            <option value="option5">Zupa</option>
+        </select>
+    </div>
+
+    <div class="custom-dropdown">
+        <label class="szesc" for="picie">Picie:</label>
+        <select>
+            <option value="option1">--wybierz--</option>
+            <option value="option2">Piwo</option>
+            <option value="option3">Pepsi</option>
+            <option value="option4">Woda</option>
+            <option value="option5">Mirinda</option>
+        </select>
+    </div>
+    <button type="submit" class="styled-button">Wyślij</button>
+    </form>
+    </div>
+    <div id="footer">
+        By Nataka28 &copy; Wszelkie prawa zastrzeżone <span id="currentDate"></span>
+        </div>
+        <script>
+            function aktualizujDate() {
+                const currentDateElement = document.getElementById("currentDate");
+                const aktualnaData = new Date();
+                currentDateElement.textContent = aktualnaData.toLocaleDateString() + " " + aktualnaData.toLocaleTimeString();
+            }
+    
+            // Wywołanie funkcji aktualizującej datę na początku
+            aktualizujDate();
+    
+            // Ustawienie interwału, aby odświeżać datę co sekundę
+            setInterval(aktualizujDate, 1000);
+        </script>
+</body>
+</html>
