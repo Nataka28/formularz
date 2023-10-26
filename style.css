@@ -149,6 +149,20 @@ input[type="text"] {
 	border-radius: 5px;
 	font-size: 16px;
 }
+input[type="number"] {
+	width: 70%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+input[type="email"] {
+	width: 70%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
 input[type="text"]:focus {
 	outline: none;
 	border-color: #008d8d;
